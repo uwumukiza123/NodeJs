@@ -11,7 +11,7 @@ const blogSchema = new Schema({
         required: true,
     },
     body: {
-        type: true,
+        type: String,
         required: true,
     }
 },{ timestamps: true })

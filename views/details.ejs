@@ -15,9 +15,9 @@
     <%- include("./Partials/footer.ejs") %>
 
     <script>
-        const transcan = document.querySelector('a.delete')
+        const trashcan = document.querySelector('a.delete')
 
-        transcan.addEventListener('click', (e)=> {
+        trashcan.addEventListener('click', (e)=> {
             const endpoint = `/blogs/${transcan.dataset.doc}`
 
             fetch(endpoint, {
